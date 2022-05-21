@@ -7,4 +7,4 @@
     * Inside dotfiles use `stow -S x` 
         * `stow -S i3` for only the i3-config
         * `stow -S */` for all configs
-    * dotfiles/x content is now mirrored in .config, edits in both places will have same effect.
+    * installed (stowed) dotfiles/x content is now mirrored in $HOME, edits in both places will have same effect.
