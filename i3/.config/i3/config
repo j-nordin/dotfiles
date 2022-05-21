@@ -199,10 +199,10 @@ exec --no-startup-id xmodmap -e "pointer = 3 2 1"
 
 # Set mouse acceleration profile to flat (constant delta)
 # https://wiki.archlinux.org/title/Mouse_acceleration#Using_xinput
-exec --no-startup-id xinput set-prop 10 308 0, 1
+exec --no-startup-id xinput set-prop 'Kingsis Peripherals ZOWIE Gaming mouse' 'libinput Accel Profile Enabled' 0, 1
 
 # Set mouse speed to 60% faster
-exec --no-startup-id xinput set-prop 10 305 0.6
+exec --no-startup-id xinput set-prop 'Kingsis Peripherals ZOWIE Gaming mouse' 'libinput Accel Speed' 0.6
 
 # Set wallpaper to solid color
 exec --no-startup-id xsetroot -solid "#333333"
