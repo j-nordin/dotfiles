@@ -7,5 +7,5 @@
     * Inside dotfiles use `stow -S x` 
         * `stow -S i3` for only the i3-config
         * `stow -S /*` for all configs
-        * `stow -S /` for only the zsh-config)
+        * `stow -S /` for only the zsh-config
     * dotfiles/x content is now mirrored in .config, edits in both places will have same effect.
